@@ -16,14 +16,14 @@ There is no framework magic. The "agency" comes from the LLM choosing when and w
 
 ```
 ┌─────────────┐
-│  User Input  │
-└──────┬───────┘
+│  User Input │
+└──────┬──────┘
        ▼
 ┌──────────────────────────────────────────┐
-│              Agent Loop                   │
+│              Agent Loop                  │
 │                                          │
 │  1. Send messages + tool schemas to LLM  │
-│  2. LLM responds with:                  │
+│  2. LLM responds with:                   │
 │     ├─ tool_use  → execute, loop back    │
 │     └─ text      → done, return answer   │
 │                                          │
