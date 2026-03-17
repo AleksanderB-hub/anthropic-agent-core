@@ -1,4 +1,4 @@
-# Simple AI Agent
+# Anthropic Agent Core
 
 A minimal, working AI agent in Python using the Anthropic API. Built as a reference implementation to understand the core agent loop before developing more complex agentic systems.
 
@@ -42,7 +42,7 @@ The agent can call multiple tools in sequence or parallel within a single run, a
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/anthropic-agent-core.git
+git clone https://github.com/AleksanderB-hub/anthropic-agent-core.git
 cd anthropic-agent-core
 
 # Set up environment
