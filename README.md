@@ -42,8 +42,8 @@ The agent can call multiple tools in sequence or parallel within a single run, a
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/simple-ai-agent.git
-cd simple-ai-agent
+git clone https://github.com/YOUR_USERNAME/anthropic-agent-core.git
+cd anthropic-agent-core
 
 # Set up environment
 python -m venv .venv
@@ -89,7 +89,7 @@ print(response)
 ## Project Structure
 
 ```
-simple-ai-agent/
+anthropic-agent-core/
 ├── agent.py           # Core agent: loop, tool dispatch, LLM calls
 ├── tools.py           # Tool definitions: functions + schemas
 ├── config.py          # Configuration (model, API key, system prompt)
